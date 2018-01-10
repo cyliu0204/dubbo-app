@@ -9,6 +9,6 @@ import com.wangsong.system.model.User;
 
 public interface APIService {
 	
-	public User findUserByUser(User user);
+	public User findUserByUser(User users);
 	public List<Resources> findResourcesByResources(Resources resources);
 }
